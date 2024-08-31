@@ -42,7 +42,7 @@
             // ------------------------------------------------------------------------------------------------
 
             bindings = <
-&kp GRAVE        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6           &kp F7  &kp F8      &kp F9             &kp F10          &kp F11       &kp F12            &trans  &kp DEL
+&kp TILDE        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6           &kp F7  &kp F8      &kp F9             &kp F10          &kp F11       &kp F12            &trans  &kp DEL
 &rgb_ug RGB_EFR  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp UP_ARROW  &trans                     &trans
 &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME    &kp PAGE_UP        &kp LEFT         &kp RIGHT                                &bootloader
 &kp CLCK                 &trans  &trans  &trans  &trans  &trans           &trans  &trans      &kp END            &kp PAGE_DOWN    &kp DOWN      &ext_power EP_TOG          &trans
@@ -60,7 +60,7 @@
             // ------------------------------------------------------------------------------------------------
 
             bindings = <
-&bt BT_CLR    &bt BT_DISC 0    &bt BT_DISC 1    &bt BT_DISC 2    &bt BT_DISC 3    &bt BT_DISC 4                    &trans                            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_RESET
+&bt BT_CLR    &bt BT_DISC 0    &bt BT_DISC 1    &bt BT_DISC 2    &bt BT_DISC 3    &bt BT_DISC 4                    &bt BT_CLR_ALL                    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_RESET
 &bt BT_SEL 0  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_COLOR_HSB(26,75,59)  &trans                            &trans  &trans  &trans  &trans  &trans  &trans          &trans
 &bt BT_SEL 1  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_COLOR_HSB(38,25,73)  &trans                            &trans  &trans  &trans  &trans  &trans                  &sys_reset
 &bt BT_SEL 2                   &trans           &trans           &trans           &trans                           &rgb_ug RGB_COLOR_HSB(285,80,56)  &trans  &trans  &trans  &trans  &trans  &trans          &trans
